@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  farebase: {
+    apiKey: "AIzaSyDl9Vd13Pk-un4xM8Ty7sT-EigsQvVEEcQ",
+    authDomain: "presidentecom-auth-22b3f.firebaseapp.com",
+    databaseURL: "https://presidentecom-auth-22b3f.firebaseio.com",
+    projectId: "presidentecom-auth-22b3f",
+    storageBucket: "presidentecom-auth-22b3f.appspot.com",
+    messagingSenderId: "752110222155",
+    appId: "1:752110222155:web:5ffed87364253d445c86ce",
+    measurementId: "G-QP5MLN9XZZ"
+  }
 };
 
 /*
